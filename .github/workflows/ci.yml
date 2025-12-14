@@ -135,4 +135,4 @@ jobs:
           echo "- ✅ Tests: ${{ needs.test.result }}" >> $GITHUB_STEP_SUMMARY
           echo "- ✅ Build: ${{ needs.build.result }}" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "🚀 ¡Tu código está listo para producción!" >> $GITHUB_STEP_SUMMAR
+          echo "🚀 ¡Tu código está listo para producción!" >> $GITHUB_STEP_SUMMARY
