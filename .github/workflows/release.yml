@@ -1,0 +1,14 @@
+name: "Release"
+
+on:
+  push:
+    tags:
+      - 'v*'   # Cualquier tag que empiece con 'v'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: "🚀 Crear release"
+        run: echo "Creando release ${{ github.ref_name }}"
